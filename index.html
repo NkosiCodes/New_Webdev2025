@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="icon" type="image/png" href="codecraft.png">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="top">
+      <div id="innertop">
+        <img src="codecraft.png" title="CodeCraft" />
+        <ul id="unorderedlist">
+          <li id="list1"><a href="#home">Home</a></li>
+          <li id="list2"><a href="#services">Services</a></li>
+          <li id="list3"><a href="#about">About</a></li>
+          <li id="list4"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <main>
+      <div id="innerContent">
+        <h3>Welcome, Please login</h3>
+
+        <div id="outerinput">
+          <div id="userContainer">
+            <input
+              type="text"
+              placeholder="Username"
+              id="user-name"
+              autocapitalize="off"
+              autocomplete="off"
+              required
+              maxlength="50"
+            />
+          </div>
+
+          <br />
+
+          <div id="passwrdContainer">
+            <input
+              type="password"
+              placeholder="Password"
+              id="user-password"
+              autocapitalize="off"
+              autocomplete="off"
+              required
+              minlength="6"
+            />
+          </div>
+        </div>
+
+        <br />
+
+        <!-- <form> -->
+        <div id="buttonbtn">
+          <div class="outerbtn">
+            <button type="submit" id="btn-sign" onclick="sign_in()">
+              Sign In
+            </button>
+          </div>
+          <br />
+          <div class="outerbtn2">
+            <button type="button" class="btn-register">Register</button>
+          </div>
+        </div>
+        <!-- </form> -->
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h4>About Us</h4>
+          <p class="psize">
+            We are a team of passionate developers creating modern,
+            user-friendly web solutions.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <ul class="social-links">
+            <li class="fb">
+              <a href="https://facebook.com" target="_blank">Facebook</a>
+            </li>
+            <li class="x">
+              <a href="https://twitter.com" target="_blank">Twitter</a>
+            </li>
+            <li class="ig">
+              <a href="https://instagram.com" target="_blank">Instagram</a>
+            </li>
+            <li class="linked">
+              <a href="https://linkedin.com" target="_blank"
+                >Linked<span class="in">in</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 CodeCraft. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
